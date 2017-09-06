@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/back.png);
+    /*overflow: hidden;*/
+}
+.contenedor{
+    width: 1000px;
+    height: 800px; 
+    margin: 0 auto;
+}
+.ova{
+    width: 998px;
+    height: 600px;
+    background: url(../images/home_1.png) no-repeat;
+    background-size: 1000px 341px;
+    background-position-y: 260px;
+    padding-top: 0px;
+    border: 1px solid #c2b59c;
+}
+.top{
+    background: #e8e9ea url(../images/top.png) no-repeat;
+    background-size: 1038px 90px;
+    background-position: -28px 8px;
+    width: 1000px;
+    height: 117px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+.btns{
+    height: 80px;
+    width: 170px;
+    float: right;
+    position: relative;
+    bottom: -45px;
+    right: 83px;
+    top: 191px;
+}
+.btnTop{
+    position: relative;
+    float: left;
+    cursor: pointer;
+    margin: 0 82px;
+}
+.creditos{
+    background: #3f4f5d;
+    height: 48px;
+    padding: 14px 20px 0 0;
+    margin: 0 0 10px 0;
+}
+.creditos p{
+    color: #FFF;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btnTop img{
+    width: 65px;
+    height: 65px;
+}
+
+.popUp{
+    background: url(../images/bt_popUp.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.web{
+    background: url(../images/bt_web.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+
+/*BOTONES HOME*/
+.menuHome{
+    background: rgba(255, 0, 0, 0);
+    width: 670px;
+    height: 505px;
+    position: absolute;
+    margin: 0 0 0 230px;
+}
+
+.btnHome:hover{
+    opacity: 0.7;
+}
+
+.btnHome1{
+    background: url(../images/btn01-home.png) no-repeat;
+    /* width: 110px; */
+    /* height: 110px; */
+    position: absolute;
+    margin: 205px 0 0 20px;
+    cursor: pointer;
+    background-size: 222px 219px;
+    width: 222px;
+    height: 219px;
+}
+
+.btnHome2{
+    background: url(../images/btn02-home.png) no-repeat;
+    width: 222px;
+    height: 219px;
+    position: absolute;
+    margin: 205px 0 0 266px;
+    cursor: pointer;
+    background-size: 222px 219px;
+}
+
+.btnHome3{
+    background: url(../images/btn03-home.png) no-repeat;
+    width: 222px;
+    height: 219px;
+    position: absolute;
+    margin: 205px 0 0 517px;
+    cursor: pointer;
+    background-size: 222px 219px;
+}
+
+.btnHome4{
+    background: url(../images/btn04-home.png) no-repeat;
+    width: 222px;
+    height: 219px;
+    position: absolute;
+    margin: 205px 0 0 762px;
+    cursor: pointer;
+    background-size: 222px 219px;
+}
+
+.imgCentral{
+    margin: 0px 0px 39px -304px;
+}
+
+.numerosCentral{
+    width: 410px;
+    height: 309px;
+  margin: 172px 0 0 149px; 
+
+}
+
+.home-label{
+    width: 667px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 145px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

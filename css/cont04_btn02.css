@@ -1,0 +1,169 @@
+body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+
+.arrowPrev{
+    background: url('../images/flecha_iz.png') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 36px;
+    height: 46px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(../images/flecha_der.png) no-repeat;
+    right: 0px;
+    width: 36px;
+    height: 46px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 340px;
+    position: absolute;
+    margin: 170px 0 0 50px;
+}
+.adv{
+    background: url(../img/adv.png) no-repeat;
+    width: 834px;
+    height: 364px;
+}
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 278px 0 0 45.4px;
+}
+.btnExtras{
+    margin-top: -60px;
+    margin-left: 700px;
+    position: absolute;
+    /*margin: 0px 0 0 720px;*/
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+
+.cont-init-img-pos{
+    margin-top: 135px;
+    margin-left: 32px;
+}
+.pos-btn-cls{
+    margin-top: -12px;
+    /* margin-left: -36px!important; */
+    right: -9px!important;
+}
+
+.pos-tenerCuenta{
+    display: inherit;
+    margin-top: 45px;
+}
+
+/*---------------------------------------*/
+
+.contP1{
+    overflow: hidden;
+    width: 739px;
+    height: 190px;
+    position: absolute;
+    margin: 315px 0px 0px 46px;
+    border: 1px solid;
+    background-color: white;
+    padding: 15px;
+}
+
+
+.btnP1{
+    width: 368px;
+    height: 20px;
+    text-align: center;
+    padding: 8px;
+    /* margin: 37px 0 -6px 20px; */
+    cursor: pointer;
+    background-color: #fbd03b;
+    color: white;
+    font-size: 16px;
+    border-radius: 15px 15px 1px 1px;
+    border: 1px solid gray;
+}
+
+.btnP1:hover{
+  background-color: #fbb03b;
+}
+
+.btn_tab_col{
+    background-color: #707070;
+    border: 1px solid;
+    width: 384px;
+}
+
+.cont_tab_pos{
+    /* margin-left: 25px; */
+    margin-top: 10px;
+}
+
+.pos_tab_cont{
+    margin-top: 263px;
+}
+
+.pos_tab_btn{
+    margin-left: 65px;
+    margin-top: 189px;
+}
+
+.cont_tab_size01{
+    width: 525px;
+    margin-left: 115px; 
+}
+
+.cont_tab_size02{
+    width: 515px;
+    margin-left: 125px; 
+}

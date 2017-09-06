@@ -1,0 +1,29 @@
+.modal{
+    max-width: 911px;
+    padding: 0;
+    height: 515px;
+    background-color: white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    webkit-box-shadow: 0 0 0 #000;
+    box-shadow: 0 0 0 #000;
+}
+
+.modal a.close-modal{
+	background: url(../images/cerrar_internas.png) no-repeat center;
+	background-size: 50px 50px;
+	top: -22px;
+    right: -18.5px;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-position{
+    max-width: 765px;
+    margin-left: 45px;
+    margin-top: 0px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 15px;
+    height: 593px;
+}
