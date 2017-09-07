@@ -20,7 +20,7 @@ body{
 }
 .btnExtras{
     position: absolute;
-    margin: 363px 0 0 755px;
+    margin: 405px 0 0 755px;
 }
 .botones2{
     position: absolute;
@@ -86,7 +86,7 @@ body{
     right: 90px;
 }
 .cont-init-img-pos{
-    margin-top: 100px;
+    margin-top: 145px;
     margin-left: 32px;
 }
 .pos-btn-cls{

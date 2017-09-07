@@ -11,6 +11,8 @@
 
         <!-- jQuery con helper-->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- jQuery UI-->
+        <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
         <script src="../js/helper_functions.js"></script>
 
         <script src="../js/jPages.js"></script>
@@ -46,37 +48,28 @@
                 <!-- item container -->
                 <div class="pgs">
                     <ul id="itemContainer">
-                        <li>
-
-                            <!-- complemento tab_s-->
-                            <div class="botonesP1">
-                                
-                                <div id="btn_tab1" class="btnP1 btn_tab_s" data-cont-tab-s="C11" data-color-tab-s="#fbd03b" data-color-tab-s-active="#fbb03b">
-                                    <p>La OMC</p>
-                                </div>
-                                <div id="btn_tab2" class="btnP1 btn_tab_s" data-cont-tab-s="C22" data-color-tab-s="#fbd03b" data-color-tab-s-active="#fbb03b">
-                                    <p>Acuerdos regionales</p>
-                                </div>
-                                
-                            </div>
-                            <div class="contP1">
-                                <div id="C11" class="cont_tab_s">
-                                    <img class="cont_tab_size01" src="../images/cont04/btn02/cont_tab_01.png">
-                                    <div class="btnExtras">
-                                        <div class="cajaResalt" >                                            
-                                            <button data-opacity="true" data-id-cont-not-lert="C1" class="op_not_lert tenerCuenta"></button>
-                                        </div>
-                                    </div>                                    
-                                </div>
-                                <div id="C22" class="cont_tab_s">
-                                    <img class="cont_tab_size02" src="../images/cont04/btn02/cont_tab_02.png">                                    
-                                </div>                                
-                            </div>
-                            <!-- complemento tab_s-->
+                        <li>                            
 
                             <img class="label-sub label-sub-pos1" src="../images/cont04/label1.png">
 
                             <img class="cont-init-img cont-init-img-pos" src="../images/cont04/btn02/cont01.png">
+
+
+                            <div class="telonCont">
+
+                                <button class="volver volver-extra"></button>
+
+                                <div id="cont_int_01" data-src="cont04_btn02_btn1.html"></div>
+                                <div id="cont_int_02" data-src="cont04_btn02_btn2.html"></div>                                
+                                
+                            </div>
+
+                            <div class="pos-div-btns">                                
+                                <button id="btn_tl_01" class="btn01-C1 btn-cont btn01" data-id-cont-tl="cont_int_01"></button>
+                                <button id="btn_tl_02" class="btn02-C2 btn-cont btn02" data-id-cont-tl="cont_int_02"></button>                                
+                                
+                                <img class="pos-instruccion" src="../images/cont04/instruccion.png">
+                            </div>
 
                         </li>
                         

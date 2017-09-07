@@ -11,6 +11,8 @@
 
         <!-- jQuery con helper-->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- jQuery UI-->
+        <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
         <script src="../bower_components/elevatezoom/jquery.elevatezoom.js"></script>
         <script src="../js/helper_functions.js"></script>
 
@@ -28,11 +30,11 @@
                 <!-- navigation holder -->
                 <div class="holder"></div>
 
-                <!-- wrapped custom buttons for easier styling 
+                <!-- wrapped custom buttons for easier styling -->
                 <div class="customBtns">
                     <span class="arrowPrev"></span>
                     <span class="arrowNext"></span>
-                </div>-->
+                </div>
 
 
                 <div class="black black_not_lert">
@@ -47,50 +49,40 @@
                 <!-- item container -->
                 <div class="pgs">
                     <ul id="itemContainer">
-                        <li>
-
-                            <!-- complemento tab_s-->
-                            <div class="botonesP1">
-                                
-                                <div id="btn_tab1" class="btnP1 btn_tab_s" data-cont-tab-s="C11" data-color-tab-s="#ddb9ac" data-color-tab-s-active="#707070">
-                                    <p>Papel del estado en la economía externa</p>
-                                </div>
-                                <div id="btn_tab2" class="btnP1 btn_tab_s" data-cont-tab-s="C22" data-color-tab-s="#ddb9ac" data-color-tab-s-active="#707070">
-                                    <p>Competitividad sistémica</p>
-                                </div>
-                                <div id="btn_tab3" class="btnP1 btn_tab_s" data-cont-tab-s="C33" data-color-tab-s="#ddb9ac" data-color-tab-s-active="#707070">
-                                    <p>Importante:</p>
-                                </div>
-                                <div id="btn_tab4" class="btnP1 btn_tab_s" data-cont-tab-s="C44" data-color-tab-s="#ddb9ac" data-color-tab-s-active="#707070">
-                                    <p>Para tener en cuenta</p>
-                                </div>
-                            </div>
-                            <div class="contP1">
-                                <div id="C11" class="cont_tab_s">
-                                    <img class="cont_tab_size01" src="../images/cont02/btn03/cont_tab_01.png">                                    
-                                </div>
-                                <div id="C22" class="cont_tab_s">
-                                    <img class="cont_tab_size02-1" src="../images/cont02/btn03/cont_tab_02-1.png">
-                                    <img class="cont_tab_size02-2" src="../images/cont02/btn03/cont_tab_02-2.png" data-zoom-image="../images/cont02/btn03/cont_tab_02-2.png">
-                                    <div class="btnExtras">
-                                        <div class="cajaResalt" >                                            
-                                            <button data-opacity="true" data-id-cont-not-lert="C1" class="op_not_lert tenerCuenta"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="C33" class="cont_tab_s">
-                                    <img class="cont_tab_size01" src="../images/cont02/btn03/cont_tab_03.png">
-                                </div>
-                                <div id="C44" class="cont_tab_s">
-                                    <img class="cont_tab_size01" src="../images/cont02/btn03/cont_tab_04.png">
-                                </div>
-                            </div>
-                            <!-- complemento tab_s-->
+                        <li>                            
 
                             <img class="label-sub label-sub-pos1" src="../images/cont02/label1.png">
 
                             <img class="cont-init-img cont-init-img-pos" src="../images/cont02/btn03/cont01.png">
 
+                            <div class="telonCont">
+
+                                <button class="volver volver-extra"></button>
+
+                                <div id="cont_int_01" data-src="cont02_btn03_btn1.html"></div>
+                                <div id="cont_int_02" data-src="cont02_btn03_btn2.html"></div>                                
+                                
+                            </div>
+
+                            <div class="pos-div-btns">                                
+                                <button id="btn_tl_01" class="btn01-C1 btn-cont btn01" data-id-cont-tl="cont_int_01"></button>
+                                <button id="btn_tl_02" class="btn02-C2 btn-cont btn02" data-id-cont-tl="cont_int_02"></button>                                
+                                
+                                <img class="pos-instruccion" src="../images/cont02/instruccion.png">
+                            </div>
+
+                        </li>
+
+                        <li>
+                            <img class="label-sub label-sub-pos1" src="../images/cont02/label1.png">
+
+                            <img class="cont-init-img cont-init-img-pos" src="../images/cont02/btn03/cont02.png">
+                        </li>
+
+                        <li>
+                            <img class="label-sub label-sub-pos1" src="../images/cont02/label1.png">
+
+                            <img class="cont-init-img cont-init-img-pos" src="../images/cont02/btn03/cont03.png">
                         </li>
                         
                     </ul>

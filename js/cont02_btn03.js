@@ -6,4 +6,13 @@ $(function(){
 		zoomWindowPosition: 10,
   		cursor: "crosshair"
 	});
+
+	$("div.holder").jPages({
+        containerID : "itemContainer",
+        perPage     : 1,
+        first       : false,
+        previous    : "span.arrowPrev",
+        next        : "span.arrowNext",
+        last        : false
+    });
 })

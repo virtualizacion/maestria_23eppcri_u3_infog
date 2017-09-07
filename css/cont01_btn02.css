@@ -65,7 +65,7 @@ body{
     margin: 100px 0 0 60px;
 }
 .btnExtras{
-    margin-top: 374px;
+    margin-top: 435px;
     margin-left: 750px;
     position: absolute;
     /*margin: 0px 0 0 720px;*/
@@ -91,7 +91,7 @@ body{
     z-index: 3;
 }
 .cont-init-img-pos{
-    margin-top: 100px;
+    margin-top: 160px;
     margin-left: 32px;
 }
 .pos-btn-cls{

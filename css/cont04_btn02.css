@@ -92,7 +92,7 @@ body{
 }
 
 .cont-init-img-pos{
-    margin-top: 135px;
+    margin-top: 180px;
     margin-left: 32px;
 }
 .pos-btn-cls{
@@ -166,4 +166,26 @@ body{
 .cont_tab_size02{
     width: 515px;
     margin-left: 125px; 
+}
+
+/*--------------------------------------------------------------------*/
+
+.btn01{
+    background: url(../images/cont04/btn02/btn01.png) no-repeat center;
+}
+.btn02{
+    background: url(../images/cont04/btn02/btn02.png) no-repeat center;
+}
+/**/
+.pos-div-btns{
+    margin-top: 35px;
+    margin-left: 170px;
+}
+.pos-instruccion{
+    margin-top: 25px;
+    margin-left: 126px;
+}
+.pos-btn-cls{
+    margin-top: -55px;    
+    right: -9px!important;
 }

@@ -20,7 +20,7 @@ body{
 }
 .btnExtras{
     position: absolute;
-    margin: 215px 0 0 755px;
+    margin: 342px 0 0 755px;
 }
 .botones2{
     position: absolute;
@@ -28,7 +28,7 @@ body{
 }
 .cajaResalt{
     cursor: pointer;
-    margin: 40px 0 0 0;
+    margin: 0 0 0 0;
 }
 .cls{
     position: absolute;
@@ -86,16 +86,11 @@ body{
     right: 90px;
 }
 .cont-init-img-pos{
-    margin-top: 140px;
+    margin-top: 145px;
     margin-left: 32px;
 }
 .pos-btn-cls{
     margin-top: -12px;
     /* margin-left: -36px!important; */
     right: -9px!important;
-}
-
-.pos-tenerCuenta{
-    display: inherit;
-    margin-top: 45px;
 }
